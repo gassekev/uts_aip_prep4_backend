@@ -1,0 +1,30 @@
+{
+  "name": "uts_aip_prep4_backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "babel-node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/huondtob/uts_aip_prep4_backend.git"
+  },
+  "author": "Tobias Huonder, Kevin Gasser, Simon Mueller",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/huondtob/uts_aip_prep4_backend/issues"
+  },
+  "homepage": "https://github.com/huondtob/uts_aip_prep4_backend#readme",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "express": "^4.15.4",
+    "http-status": "^1.0.1"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-preset-env": "^1.6.0",
+    "babel-preset-stage-3": "^6.24.1"
+  }
+}
