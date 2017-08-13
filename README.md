@@ -1,11 +1,11 @@
 # uts_aip_prep4_backend
 
 ## start
-`docker run -d --rm -p 3000:3000 --name=prep4 prep4`
+`docker run -d --rm -p 3001:3001 --name=prep4 prep4`
 
 or
 
 `yarn run start`
 
 ## stop
-`docker stop prep4` 
+`docker stop prep4`
