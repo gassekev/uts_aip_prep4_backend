@@ -16,6 +16,31 @@ app.get('/', function (req, res) {
 
 app.post('/', function (req, res) {
   for (let prop in req.body){
+    /**
+    if(prop != 'undefined' && prop != false) {
+        //validate recieved data
+        
+        var validProp = true;
+        
+        switch(prop) {
+        case "duration":
+            if(isNaN(req.body[prop])) {
+                validProp = false;
+            }
+            break;
+        case "title":
+            break;
+        case "genre":
+            break;
+        case "synopsis":
+            break;
+        default:
+            validProp = false;
+               
+        if(validProp == true);
+    }
+    **/
+    
     if (Movie.publicProps().includes(prop)){
       movie[prop] = req.body[prop];
     }
